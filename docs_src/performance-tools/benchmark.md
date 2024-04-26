@@ -39,6 +39,9 @@ consumption, and so on.
     ```bash
     python benchmark.py --compose_file ../../use-cases/gst_capi/add_camera-simulator.yml --compose_file ../../use-cases/gst_capi/add_gst_capi_yolov5_ensemble.yml
     ```
+The diagram shows how the benchmark.py utilized the Docker Compose and replica count to deploy the desired amount of pipelines.
+
+[![Performance Pipeline Count ](../Architecture/images/performance-pipeline.png)](./images/performance-pipeline.png)
 
 ## Benchmark Stream Density for CV Pipelines
 
